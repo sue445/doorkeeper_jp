@@ -21,8 +21,20 @@ module DoorkeeperJp
     # @return [Array<DoorkeeperJp::Response>]
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
-    def events(page: nil, locale: nil, sort: nil, since: nil, until: nil, keyword: nil, prefecture: nil, is_expand_group: false)
-      res = connection.get("events").body
+    def events(page: nil, locale: nil, sort: nil, since_date: nil, until_date: nil, keyword: nil, prefecture: nil, is_expand_group: false)
+      params = {
+        page: page,
+        locale: locale,
+        sort: sort,
+        since: to_ymd(since_date),
+        until: to_ymd(until_date),
+        q: keyword,
+        prefecture: prefecture
+      }.compact
+
+      params["expand[]"] = "group" if is_expand_group
+
+      res = connection.get("events", params).body
       res.map(&:event)
     end
 
@@ -46,6 +58,13 @@ module DoorkeeperJp
         "Authorization" => "Bearer #{@access_token}",
         "Content-Type" => "application/json",
       }
+    end
+
+    # @param date [Date]
+    #
+    # @return [String]
+    def to_ymd(date)
+      date&.strftime("%Y-%m-%d")
     end
   end
 end
