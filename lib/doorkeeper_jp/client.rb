@@ -2,6 +2,11 @@
 
 module DoorkeeperJp
   class Client
+    # @param access_token [String]
+    def initialize(access_token = nil)
+      @access_token = access_token
+    end
+
     # List all featured events
     #
     # @param page [Integer] The page offset of the results.
@@ -17,8 +22,30 @@ module DoorkeeperJp
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
     def events(page: nil, locale: nil, sort: nil, since: nil, until: nil, keyword: nil, prefecture: nil, is_expand_group: false)
-      # TODO: Impl
-      []
+      res = connection.get("events").body
+      res.map(&:event)
+    end
+
+    private
+
+    # @return [Faraday::Connection]
+    def connection
+      Faraday.new(url: "https://api.doorkeeper.jp/", headers: request_headers) do |conn|
+        conn.response :mashify, mash_class: DoorkeeperJp::Response
+        conn.response :json
+        conn.response :raise_error
+
+        conn.adapter Faraday.default_adapter
+      end
+    end
+
+    # @return [Hash]
+    def request_headers
+      {
+        "User-Agent" => "DoorkeeperJp v#{DoorkeeperJp::VERSION} (https://github.com/sue445/doorkeeper_jp)",
+        "Authorization" => "Bearer #{@access_token}",
+        "Content-Type" => "application/json",
+      }
     end
   end
 end
