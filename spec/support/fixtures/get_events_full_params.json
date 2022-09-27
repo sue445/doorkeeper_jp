@@ -1,0 +1,147 @@
+[
+  {
+    "event": {
+      "title": "[JAPANESE EVENT] 日本にあるグローバル企業でエンジニアとして働くには ？ 🚀",
+      "id": 140863,
+      "starts_at": "2022-08-03T10:00:00.000Z",
+      "ends_at": "2022-08-03T11:00:00.000Z",
+      "venue_name": "Impact Hub Tokyo",
+      "address": "東京都目黒区目黒２丁目１１−３",
+      "published_at": "2022-07-28T03:18:41.899Z",
+      "updated_at": "2022-08-02T05:20:27.310Z",
+      "group": {
+        "id": 9136,
+        "name": "Le Wagon Tokyo - コーディングブートキャンプ",
+        "country_code": "JP",
+        "logo": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNTBQQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5820b3555fb7c45f69dda6736b08c2e80a39d141/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/Avatar%20Red.png",
+        "description": "<p>Le Wagon Tokyoは学生を含めクリエイティブな方や起業を考えている方に最適なプログラミングスクールです。<br>\n<a href=\"https://www.lewagon.com/ja/tokyo\" rel=\"nofollow\">私たちの9週間の集中型プログラムは</a>、初心者からある程度プログラミングの知識がある方を含めた幅広いスキルのレベルの生徒が集まります。<br>\nデベロッパーの様に考え、新しい発想から問題解決に繋げられる様なマインドセットを学びませんか？</p>\n\n<p>私たちはこれまで自分のアイディアを自らコーディングする起業家、<br>\nシステムの深い理解を駆使するデベロッパーを育ててきました。</p>\n\n<p>Le Wagonは2014年パリに拠点を置き、<br>\n今年度まで世界中の19都市に展開をしてきました。</p>\n\n<p><a href=\"https://www.lewagon.com/%E3%82%A2%E3%83%97%E3%83%A9%E3%82%A4/tokyo\" rel=\"nofollow\">Le Wagon Tokyoの9週間集中型プログラムの次回開催日程は4月16日です。</a><br>\n世界各国から生徒が集まるLe Wagon Tokyoで9週間を過ごしてみませんか。<br>\n応募に関しての詳細は以下のリンクから確認できます。</p>\n\n<p>また、プログラミングやテクノロジーにご興味がありましたら<br>\n是非平日の夜に開催している無料ワークショップへ足を運んでみてください。<br>\nHTML、CSS、JavaScriptなどの言語に特化した勉強会から<br>\nテクノロジーに関連する講演会なども開催しています。</p>\n",
+        "public_url": "https://lewagontokyo.doorkeeper.jp/",
+        "members_count": 932
+      },
+      "banner": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNEFoQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--12e2e58ec10f6da0284813f3f22ea028920d80a5/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMb0F6QT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--91839951a073aea8822f6907dc8d81559a890706/Copy%20of%20Talks-%20Template%20(Post)(1).png",
+      "description": "<p>THIS EVENT WILL BE CONDUCTED IN JAPANESE ONLY!</p>\n\n<p>🗓 日時: 2022年8月3日（水）19:00 開始、20:00 終了<br>\n会場: ZOOMプラットフォーム活用したウェビナー</p>\n\n<p>日本にあるグローバル企業で働きたい方必見のイベントです。<br>\n実際にグローバル企業で働くとは？英語はどれくらい必要なのか？など皆さんの気になる質問にお答えしていきます。</p>\n\n<p>【ディスカッションのポイント】<br>\n・ご自身の勤めている会社がグローバル企業だなと思う瞬間は？<br>\n・グローバル企業を選んだ理由はなんですか？<br>\n・グローバル企業でエンジニアの仕事に就くには（就職活動の様子など）<br>\n・日本のグローバル企業で働くメリットとデメリット<br>\n・グローバル企業での言語/文化 コミュニケーション問題（英語力の問題など）<br>\n・Q&amp;A</p>\n\n<p>登壇者 🎤<br>\n- Ryuichiro<br>\n大学時代にコーディングブートキャンプでプログラミングを学び、フリーランスソフトウェアエンジニアとして、在学中に3つの異なるプロジェクトに参加。Twitter: @RyiuchiroSuzuki Github: SuzukiRyuichiro</p>\n\n<ul>\n<li>香川県　高松市\nエルサルバドル生まれ、中米育ち。新卒で派遣会社に就職したが半年で辞め、Le Wagonのコーディングブートキャンプに参加する。卒業後、香川のスタートアップ企業でソフトウェアエンジニアに転職。</li>\n</ul>\n\n<hr>\n\n<p>🚀 Le Wagon Tokyoについて 🚀</p>\n\n<p>Le Wagonは5大陸44都市にて展開し、13,000名以上の卒業生を輩出したフランス発の世界屈指のコーディングブートキャンプです。 日本においては、Le Wagonは2016年に初めての9週間のフルタイムWeb開発コースを開講、24週間のパートタイムプログラムを2019年に開講しました。過去5年間で350人以上の卒業生を輩出し、卒業生は日本の大手テック企業にてWeb開発者やプロマネ、デザイナーとして仕事をしています。 主な就職先は、Apple/ Google/ Amazon/ McKinseyなどの一流企業に始まり、 Paypal/ Uberなどのメガベンチャーまで幅広く存在します。また、Le Wagon東京は2016年以来、200以上のイベントを開催し、6,000人以上のコミュニティを誇る、テックイベントの最大手でもあります。<br>\nLe Wagon 東京キャンパスについてもっと詳しく知りたい方はこちら：<a href=\"https://www.lewagon.com/ja/tokyo\" rel=\"nofollow\">https://www.lewagon.com/ja/tokyo</a></p>",
+      "public_url": "https://lewagontokyo.doorkeeper.jp/events/140863",
+      "participants": 6,
+      "waitlisted": 0,
+      "ticket_limit": 30,
+      "lat": 35.6339419,
+      "long": 139.7081261
+    }
+  },
+  {
+    "event": {
+      "title": "8/6 東京本校【無料リアル開催】ゼロからはじめるPython入門講座（テックジム・オープン講座）",
+      "id": 139713,
+      "starts_at": "2022-08-06T02:00:00.000Z",
+      "ends_at": "2022-08-06T04:00:00.000Z",
+      "venue_name": "VORT永田町6F",
+      "address": "東京都千代田区平河町2-7-2",
+      "published_at": "2022-07-05T11:05:30.873Z",
+      "updated_at": "2022-08-01T03:11:52.645Z",
+      "group": {
+        "id": 9679,
+        "name": "テックジムと愉快な仲間たち",
+        "country_code": "JP",
+        "logo": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1IzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d918761bc0d4e5df10776a507831f1c8db8bc659/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/%E3%83%86%E3%83%83%E3%82%AF%E3%82%B7%E3%82%99%E3%83%A0%E3%83%AD%E3%82%B3%E3%82%99.png",
+        "description": "<p>「テックジム方式」とは、基礎知識なしでも、座学なしでプログラミングに専念できるように設計されたプログラミングのカリキュラムメソッドです。</p>\n\n<p>優れたエンジニアの多くは、職業訓練学校や研修スクールで学ぶような学び方をしません。 作りたいものを作っていたら、自然に習得できているのです。そして、優れた指導者（メンターや師匠）との出会いがエンジニアとしてのプロフェッショナル性を高めます。</p>\n\n<p>この自発性とプロフェッショナル性を兼ね備えたのが「テックジム方式」です。 授業を聞いたりテキストを読むことで失う時間を、純粋にプログラミング時間に向けることで、習得効率は飛躍的に向上し、モチベーションも維持できます。 その時点で知らなくていい知識や概念を可能な限り削ぎ落とし、知るべきタイミングが訪れた時にはすでに課題を通じて覚えているようなスキル習得の自動化を図ります。</p>\n\n<p>講座で用いるサンプルソースや課題は、最も効率よく学べるように細部に渡って設計されています。 まるで魔法にかかったようにプログラミンスキルが習得できるのが「テックジム方式」の醍醐味です。</p>\n",
+        "public_url": "https://techgym.doorkeeper.jp/",
+        "members_count": 1091
+      },
+      "banner": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FnQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8a7cee819bda771d5e553ad9c4d95e15407d59c8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMb0F6QT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--91839951a073aea8822f6907dc8d81559a890706/%E3%83%92%E3%82%9A%E3%83%BC%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%E7%94%A8.png",
+      "description": "<p>プログラミングは初めてだけど、Pythonから始めてみたいという方のために、無料のハンズオン開発講座をご用意いたしました。当講座は東京を中心に全国で12,000名突破の人気講座です。</p>\n\n<h2>【リアル会場での開催となります】</h2>\n\n<p>オンラインではサポートし辛い細かな質問にも気兼ねなくお答えできるのはリアルならでは。<br>\n初学者から、年齢性別に限らずプログラミングに興味を持った方に受講頂いている当講座は既に述べ１万人以上の方にお申し込み頂いております。<br>\n受講後はテックジムの会員様と混ざって頂き自習室をご自由にお使いください。<br>\n入退室は自由となっております。</p>\n\n<p>＊当日体調のすぐれない方、発熱のある方は参加をお控えください。<br>\n毎週開催しておりますので別日でのお申し込みをお願いいたします</p>\n\n<p>持ち物<br>\n・ノートPC<br>\n・Gmailアカウント</p>\n\n<p>下記チャンネルで復習動画を配信しております。</p>\n\n<p>【配信チャンネル】フーテンのグラさん（再生リスト:テックジム） <br>\n<a href=\"https://www.youtube.com/watch?v=L03x23C6dQw&amp;list=PL9u04bPGBuUPVseIvQqOCeOydgczDrmhe\" rel=\"nofollow\">フーテンのグラさん</a></p>\n\n<h2>趣味でプログラミングを勉強したい大人が増えている理由とは？</h2>\n\n<p>当講座に参加している方の6割以上が「将来エンジニアになりたいわけではないけど教養のためにプログラミングを勉強したい」という方たちで、年齢層は中学生から定年を迎えた人まで幅広く、女性の参加率も3割〜4割と非常に高くなってきております。</p>\n\n<p>この背景には、産業のIT化やAI化が進んでおり、現在の仕事に活かしたいと思っている方も多いようです。</p>\n\n<p>また、2020年から2024年にかけて、小学生のプログラミング科目の必須化、同様に中学・高校でも必須化、そして、大学入試にプログラミング科目が追加されることを背景に、彼らを対象にしたプログラミング教室はすでに4000校を超え、1万校になるとされております。</p>\n\n<p>このように、プログラミングに興味を持つ人々が激増しており、近い将来、プログラミング教育市場は、英会話市場と同じぐらいの規模になると予想されています。</p>\n\n<h2>副業・リモートワーカーのプログラミング需要の増加</h2>\n\n<p>働き方改革が浸透するなか、仕事を辞めざるを得なかった主婦層を中心に、クラウドソーシングの需要が増えています。彼女らの多くの仕事はパソコンを使った軽作業や、事務代行などの業務が中心でした。</p>\n\n<p>プログラマーもまたリモートワークに向いている職業ですので、プログラミングスキルを持っている方は、より時間単価の高い仕事を受けることができます。</p>\n\n<p>また、「会社勤め」という働き方を見直したい人は「フリーランスエンジニア」という生き方を選択することもできるでしょう。</p>\n\n<h2>今後、ITエンジニアは東京から地方に流れる!?</h2>\n\n<p>現在、ITエンジニアの就業人口は80万人とされ、数年以内に30万人のITエンジニアが不足すると言われている一方で、ITゼネコンと言われるSIerに従事するような一部の「新しい技術に追いつけないエンジニア」の10万人は不要になるというニュースもあります。</p>\n\n<p>現在、ITエンジニアの多くは首都圏や、大都市周辺を職場としておりますが、5G時代になると、いよいよIoT（モノのインターネット化）の社会実装が、第一次産業などで活発化していきますので、多くのエンジニアが移住する可能性があります。</p>\n\n<p>また産業用ロボットや、産業用スマートメガネなどは、工場エリアや建設エリアなどで盛んになるため、工業地帯にもITエンジニアが流入していくでしょう。</p>\n\n<p>今まではパソコン上のプログラミングだけで完結していたビジネスがITビジネスの主軸産業でしたが、今後はあらゆる産業において、その産業機器を扱う現場の人との交流がITビジネスの肝となってきます。</p>\n\n<p>また昨今、注目されているAI、ブロックチェーン、ロボットなどの新しい技術分野の社会実装がどんどん進んでいきますので、ITエンジニアは全国各地の社会インフラを作り変える担い手となっていきます。</p>\n\n<p>非エンジニアの人たちもまた、彼らと一緒に新しい産業を作るために、プログラミングの教養をつえておくことは、ビジネスチャンスになるでしょう。</p>\n\n<p>地方の活性化は、「どれだけエンジニアをその土地に呼べるか？」にかかっていると言っても過言ではありません。</p>\n\n<h2>Pythonが注目されている理由とは？</h2>\n\n<p>「少ないコード量で簡単にプログラムがかける」「コードが読みやすい」といったメリットのある言語で、広い分野で使われています。なかでもPythonは、ディープラーニングのライブラリーが圧倒的に豊富で、「人工知能（AI）をやるならPython」と言われるほどです。</p>\n\n<h3>参考）Pythonのライブラリー事例</h3>\n\n<p>・tensorflow：ディープラーニングのフレームワーク<br>\n・keras：ディープラーニングのフレームワーク<br>\n・jupyter：Webブラウザ上で操作できるPythonカーネル<br>\n・h5py：h5形式で保存<br>\n・Flask：Webアプリのフレームワーク<br>\n・scikit-lean 機械学習ライブラリ<br>\n・matplotlib：グラフライブラリー<br>\n・OpenCV-python：画像処理ライブラリー</p>\n\n<p>世界的に見ても、PythonはJavaやPHPを抜き、1位の人気を博しているプログラミング言語なのです。</p>\n\n<p>また、Pythonは教育用のプログラミング言語としても有能で、最初に学ぶ言語としては最適との評価も高いプログラミング言語です。とういうのも、誰が書いても同じようなコードになるため、他の人が書いたコードを元に勉強するのが簡単だというわけです。</p>\n\n<p>PythonはGoogleやNASAの内部でも利用されており、現在でもGoogleの求人情報にはPythonエンジニアの求人が存在します。</p>\n\n<p>これからプログラミングを勉強するなら、Pythonしかありえないといっても過言ではありません。</p>\n\n<h2>インストール不要ですぐに始められるのがPython</h2>\n\n<p>iPhoneアプリを開発したいなら、Xcodeをダウンロードしなければなりません。<br>\nPHPでWEBサイトを作りたいなら、サーバーにPHPファイルをあげたり、mySQLでデータベースを構築しなくてはなりません。</p>\n\n<p>このように何か開発したい時に必要最低限の環境構築が大変なのがプログラミング習得の難しさで、今まで多くの人々が挫折してきました。</p>\n\n<p>しかし、Pythonを学びはじめるときに必要なのは、ネットにつながったPCだけでOKなのです。</p>\n\n<h2>今回の講座でご用意いただくものは、PCとメアドだけ</h2>\n\n<p>GitHubというプログラムソース管理・共有ツールで、サンプルソースを共有いたします。<br>\n申し込み後にGitHubにご招待いたしますので、あらかじめGitHubの登録をお済ませください。<br>\n<a href=\"https://github.com/\" rel=\"nofollow\">https://github.com/</a></p>\n\n<p>開発は、グーグル社が提供するColaboratoryにアクセスした画面で行います。<br>\nローカル環境のエディターでプログラムコードを書いたあと、そのソースをコピーして、ここでビルドするというやり方です。（今の時点で何を言っているかわからない方も、それでOKです!!）<br>\n<a href=\"https://colab.research.google.com/notebooks/welcome.ipynb\" rel=\"nofollow\">https://colab.research.google.com/notebooks/welcome.ipynb</a></p>\n\n<p>エディターはメモ帳でもなんでも構いませんが、Visual Studio Codeがオススメです。<br>\n<a href=\"https://code.visualstudio.com/\" rel=\"nofollow\">https://code.visualstudio.com/</a></p>\n\n<h2>入門講座のアジェンダとゴール設定（本講座の狙い）</h2>\n\n<p>非常にシンプルなサンプルコードを少しずつバージョンアップしながら、「じゃんけんゲーム」を作り上げていきます。</p>\n\n<p>バージョンアップごとに課題が用意されていて、各参加者のスピードにあわせて解いていただきます。</p>\n\n<p>もしつまづいても、スタッフが手取り足取りサポートする「ハンズオン形式」の講座となります。</p>\n\n<h2>本講座で得られること</h2>\n\n<p>・Pythonの基礎的な文法の理解<br>\n・ソースコードを読めるようになる<br>\n・自分でゼロからコードを書けるようになる</p>\n\n<h2>講座内容</h2>\n\n<p>0.高速学習術について<br>\n1.グーグルコラボラトリーでサンプルソースを実行する<br>\n2.条件分岐文を書いてみる（インデントを学ぶ）<br>\n3.長いソースをシンプルなソースに書き換える（プログラムの簡略化を学ぶ）<br>\n4.関数化（関数の宣言と実行。戻り値と引数について学ぶ）<br>\n5.学習モチベーションの維持方法<br>\n6.プログラミングが大好きになるには？</p>\n\n<p>第１章　「じゃんけんゲームを作る」 <br>\n・Pythonの書き方 <br>\n・条件分岐（if文） <br>\n・関数 </p>\n\n<p>●テックジムのPythonコースでは、以下「続き」がございます。</p>\n\n<p>第２章　「間違い探しゲームを作る」<br>\n第３章　「野球シミュレーションゲームを作る」<br>\n第４章「カジノゲームを作ろう」<br>\n第５章「発展系の書き方をしよう」<br>\n第６章　「ブラックジャックゲームを作ろう」<br>\n第７章「卒業課題」第１章から第６章まで作ってきたものをレベルアップ（仕様追加、変更）。</p>\n\n<p>●Pythonコースのカリキュラム概要と制作者メッセージ</p>\n\n<p>[<a href=\"https://www.youtube.com/watch?v=TeKXmoI1ZGk\" rel=\"nofollow\">https://www.youtube.com/watch?v=TeKXmoI1ZGk</a>]</p>\n\n<h2>もっとも効率的なスキル習得「TechGYM方式」とは？</h2>\n\n<p>「TechGYM方式」とは、基礎知識なしでも、座学なしでプログラミングに専念できるように設計されたプログラミングのカリキュラムメソッドです。</p>\n\n<p>優れたエンジニアの多くは、職業訓練学校や研修スクールで学ぶような学び方をしません。<br>\n作りたいものを作っていたら、自然に習得できているのです。そして、優れた指導者（メンターや師匠）との出会いがエンジニアとしてのプロフェッショナル性を高めます。</p>\n\n<p>この自発性とプロフェッショナル性を兼ね備えたのが「TechGYM方式」です。</p>\n\n<p>授業を聞いたりテキストを読むことで失う時間を、純粋にプログラミング時間に向けることで、習得効率は飛躍的に向上し、モチベーションも維持できます。</p>\n\n<p>その時点で知らなくていい知識や概念を可能な限り削ぎ落とし、知るべきタイミングが訪れた時にはすでに課題を通じて覚えているようなスキル習得の自動化を図ります。</p>\n\n<p>講座で用いるサンプルソースや課題は、最も効率よく学べるように細部に渡って設計されています。</p>\n\n<p>まるで魔法にかかったようにプログラミンスキルが習得できるのが「TechGYM方式」の醍醐味です。</p>\n\n<p>百聞は一見に如かず。実際に講座に参加して「魔法体験」をしてみてください。</p>\n\n<h2>テックジム東京本校</h2>\n\n<p>・Python基礎コース（初学者対象・200時間で履修可能）<br>\n・AIエンジニア養成コース（現役エンジニアを対象）<br>\n・Ruby on Railsコース（副業向け）<br>\n・GAS(Googole Apps Script)コース（業務改善向け）をご用意しております。<br>\n・スマホアプリ開発コース（iOS・Android）</p>\n\n<p>・平日夜の毎晩19時〜22時開催<br>\n・土曜日の13時〜19時開催<br>\n・トレーナーは現役のエンジニア<br>\n・学生・シニアの月会費は50%割引<br>\n・会員の同伴参加は無料<br>\n・ピザナイトを月1で開催（無料）<br>\n・キャリア相談<br>\n・zoom,slackでのオンライン対応</p>\n\n<p>●詳細はこちら<br>\n<a href=\"https://techgym.jp/tokyo/tokyo_honko/\" rel=\"nofollow\">東京本校</a></p>",
+      "public_url": "https://techgym.doorkeeper.jp/events/139713",
+      "participants": 2,
+      "waitlisted": 0,
+      "ticket_limit": 5,
+      "lat": 35.6791053,
+      "long": 139.7403868
+    }
+  },
+  {
+    "event": {
+      "title": "Build your first Line chatbot - Online Workshop 🚀",
+      "id": 141096,
+      "starts_at": "2022-08-10T10:00:00.000Z",
+      "ends_at": "2022-08-10T11:00:00.000Z",
+      "venue_name": "Impact Hub Tokyo",
+      "address": "東京都目黒区目黒２丁目１１−３",
+      "published_at": "2022-08-03T05:28:04.619Z",
+      "updated_at": "2022-08-10T03:41:10.241Z",
+      "group": {
+        "id": 9136,
+        "name": "Le Wagon Tokyo - コーディングブートキャンプ",
+        "country_code": "JP",
+        "logo": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNTBQQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--5820b3555fb7c45f69dda6736b08c2e80a39d141/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/Avatar%20Red.png",
+        "description": "<p>Le Wagon Tokyoは学生を含めクリエイティブな方や起業を考えている方に最適なプログラミングスクールです。<br>\n<a href=\"https://www.lewagon.com/ja/tokyo\" rel=\"nofollow\">私たちの9週間の集中型プログラムは</a>、初心者からある程度プログラミングの知識がある方を含めた幅広いスキルのレベルの生徒が集まります。<br>\nデベロッパーの様に考え、新しい発想から問題解決に繋げられる様なマインドセットを学びませんか？</p>\n\n<p>私たちはこれまで自分のアイディアを自らコーディングする起業家、<br>\nシステムの深い理解を駆使するデベロッパーを育ててきました。</p>\n\n<p>Le Wagonは2014年パリに拠点を置き、<br>\n今年度まで世界中の19都市に展開をしてきました。</p>\n\n<p><a href=\"https://www.lewagon.com/%E3%82%A2%E3%83%97%E3%83%A9%E3%82%A4/tokyo\" rel=\"nofollow\">Le Wagon Tokyoの9週間集中型プログラムの次回開催日程は4月16日です。</a><br>\n世界各国から生徒が集まるLe Wagon Tokyoで9週間を過ごしてみませんか。<br>\n応募に関しての詳細は以下のリンクから確認できます。</p>\n\n<p>また、プログラミングやテクノロジーにご興味がありましたら<br>\n是非平日の夜に開催している無料ワークショップへ足を運んでみてください。<br>\nHTML、CSS、JavaScriptなどの言語に特化した勉強会から<br>\nテクノロジーに関連する講演会なども開催しています。</p>\n",
+        "public_url": "https://lewagontokyo.doorkeeper.jp/",
+        "members_count": 932
+      },
+      "banner": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN1VqQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2fc9cb8885d910e93ba273016701e5ab7158fa4b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMb0F6QT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--91839951a073aea8822f6907dc8d81559a890706/Line%20chatbot.png",
+      "description": "<p>Our popular Line chatbot workshop is back to keep you challenging and motivated! 🚀</p>\n\n<p>During this 2h online event, you will learn how to build a Line chatbot to engage with your customers &amp; friends, access the latest information on a chosen topic, create a survey etc just in a couple of hours.<br>\nFor this hands-on workshop, we'll be using the Ruby framework Sinatra and the Line API to build a Line chatbot from scratch.</p>\n\n<p>Agenda<br>\n• 7:00 pm - Greeting<br>\n• 7:05 pm - Workshop by our lead teacher<br>\n• 8:45 pm - End of the workshop</p>\n\n<p>Pre-requisite<br>\n• This is a 100% online workshop 💻<br>\n• Create a GitHub account: <a href=\"http://github.com/\" rel=\"nofollow\">http://github.com/</a> 🤓<br>\n• Download Zoom app: <a href=\"https://zoom.us/download\" rel=\"nofollow\">https://zoom.us/download</a> 🗣️<br>\n• Sign up for Heroku: <a href=\"https://signup.heroku.com/login\" rel=\"nofollow\">https://signup.heroku.com/login</a><br>\n• Get an access to the workshop Github: <a href=\"https://info.lewagon.com/tokyo-linebot\" rel=\"nofollow\">https://info.lewagon.com/tokyo-linebot</a><br>\n• Basic notions of Ruby can be helpful 💎</p>\n\n<hr>\n\n<p><strong>🚀About Le Wagon Tokyo 🚀</strong></p>\n\n<p>Le Wagon Tokyo (<a href=\"https://www.lewagon.com/tokyo\" rel=\"nofollow\">https://www.lewagon.com/tokyo</a>) is a top ranked coding school for startups, creative people and tech entrepreneurs.<br>\nOur Web Development and Data Science bootcamps are designed for individuals who want to change their career, become freelancer, or launch their own venture!</p>\n\n<p>Our next bootcamps will start:</p>\n\n<p>🚶‍♂️September 24th for our 24-week part-time Web Development and Data Science programs<br>\n🏃‍♀️ October 3rd for our 9-week full-time Web Development and Data Science programs</p>\n\n<p>Applications are already open!<br>\nCheckout enrollment details, curriculum, Career Week support and more 👉 <a href=\"https://www.lewagon.com/tokyo\" rel=\"nofollow\">https://www.lewagon.com/tokyo</a></p>",
+      "public_url": "https://lewagontokyo.doorkeeper.jp/events/141096",
+      "participants": 6,
+      "waitlisted": 0,
+      "ticket_limit": 30,
+      "lat": 35.6339419,
+      "long": 139.7081261
+    }
+  },
+  {
+    "event": {
+      "title": "8/13【無料リアル開催】ゼロからはじめるGAS講座「メルマガスタンドを作ろう」",
+      "id": 139716,
+      "starts_at": "2022-08-13T02:00:00.000Z",
+      "ends_at": "2022-08-13T04:00:00.000Z",
+      "venue_name": "VORT永田町6F・FullHouse",
+      "address": "東京都千代田区平河町2-7-2",
+      "published_at": "2022-07-05T11:18:51.724Z",
+      "updated_at": "2022-07-17T03:40:15.925Z",
+      "group": {
+        "id": 9679,
+        "name": "テックジムと愉快な仲間たち",
+        "country_code": "JP",
+        "logo": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1IzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d918761bc0d4e5df10776a507831f1c8db8bc659/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/%E3%83%86%E3%83%83%E3%82%AF%E3%82%B7%E3%82%99%E3%83%A0%E3%83%AD%E3%82%B3%E3%82%99.png",
+        "description": "<p>「テックジム方式」とは、基礎知識なしでも、座学なしでプログラミングに専念できるように設計されたプログラミングのカリキュラムメソッドです。</p>\n\n<p>優れたエンジニアの多くは、職業訓練学校や研修スクールで学ぶような学び方をしません。 作りたいものを作っていたら、自然に習得できているのです。そして、優れた指導者（メンターや師匠）との出会いがエンジニアとしてのプロフェッショナル性を高めます。</p>\n\n<p>この自発性とプロフェッショナル性を兼ね備えたのが「テックジム方式」です。 授業を聞いたりテキストを読むことで失う時間を、純粋にプログラミング時間に向けることで、習得効率は飛躍的に向上し、モチベーションも維持できます。 その時点で知らなくていい知識や概念を可能な限り削ぎ落とし、知るべきタイミングが訪れた時にはすでに課題を通じて覚えているようなスキル習得の自動化を図ります。</p>\n\n<p>講座で用いるサンプルソースや課題は、最も効率よく学べるように細部に渡って設計されています。 まるで魔法にかかったようにプログラミンスキルが習得できるのが「テックジム方式」の醍醐味です。</p>\n",
+        "public_url": "https://techgym.doorkeeper.jp/",
+        "members_count": 1091
+      },
+      "banner": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeU1JQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--cdbc17286642f222aca47dfd80e713acac578189/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMb0F6QT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--91839951a073aea8822f6907dc8d81559a890706/GAS.png",
+      "description": "<p><strong>リアル会場での開催となります</strong></p>\n\n<p>初心者の方から、性別年齢関係なくどなたでもご参加いただけます。プログラミングをやってみたい、業務効率化について何から始めればいいか分からない方。ぜひご参加ください。<br>\n講座終了後はテックジム会員と混ざって頂き自習スペースをご利用ください。<br>\n入退室は自由です。</p>\n\n<p>＊当日体調のすぐれない方、発熱のある方は参加をお控えください<br>\n毎月開催しておりますので別日でのお申し込みをお願いいたします。</p>\n\n<p>Google Apps Scriptは、スプレッドシート間のデータ連携や、Gmail、Googleフォーム、外部APIなどを連携することができるスクリプト言語で、普段行っている業務を自動化させることができます。<br>\nまた、プログラミング初心者が入りやすい言語であるため、プログラミングの仕組みや概念を学習することにも適しております。本講座では、ビジネスでよく使われるシーンにあわせたツールをご一緒に開発していきます。</p>\n\n<h3>■Google Apps Scriptとは？</h3>\n\n<p>Google Apps Scriptとは、Googleが提供しているプログラミング言語です。「Google Apps Script」の頭文字をとってGASと略されます。</p>\n\n<p>・Gmail<br>\n・Googleカレンダー<br>\n・Googleドキュメント<br>\n・Googleスプレッドシート<br>\n・Googleスライド<br>\n・Googleマップ<br>\n・Googleフォーム</p>\n\n<p>など、Googleが提供しているさまざまなサービスやツールを操作することができます。<br>\nまた、GASは無料で利用でき、プログラミング言語に用いる開発環境の構築が必要ありません。</p>\n\n<p>GASの利便性はなんといっても業務の自動化で、中小企業レベルのほとんどの事務業務がGASでカバーできます。<br>\nしたがって、エンジニアではない人もGASを覚えることは大変意義のあるものです。</p>\n\n<p>実際、「GASを使える事務職」と「GASを使えない事務職」であれば、前者を雇った方がいいですし、営業職であれ、マーケティング職であれ、財務職であれ、GASを使うことで、本人およびグループメンバーのパフォーマンスが何倍にも上がることになります。</p>\n\n<h3>【本講座の目的】</h3>\n\n<p>Googleドキュメントとスプレッドシートを連携したメルマガ配信システムを作る。</p>\n\n<h3>【アジェンダ】</h3>\n\n<p>・GASとは<br>\n・GASからGmailを送ろう<br>\n・Googleドキュメントとスプレッドシートを連携させよう<br>\n・GASでメルマガ配信システムを作ろう</p>\n\n<p>Googleドキュメントに書いた内容をメール本文とし、スプレッドシートにある宛先一覧に自動メールを送るメルマガ配信システムが作れるようになります。</p>\n\n<p>※本講座はテックジムGASコースの一部であり、実際はもっと機能充実の「メルマガスタンド」を作っていきます。</p>\n\n<h3>【お持ち物】</h3>\n\n<p>・Gmailアカウント（予めご用意ください）<br>\n・ノートPC</p>\n\n<h2>テックジム東京本校</h2>\n\n<p>月額22,000円で通い放題・コースも取り放題</p>\n\n<p>・Python基礎コース（初学者対象・200時間で履修可能）<br>\n・AIエンジニア養成コース（現役エンジニアを対象）<br>\n・Ruby on Railsコース（副業向）<br>\n・GASコース(業務改善)をご用意しております。<br>\n・スマホアプリ開発コース（iOS・Android）</p>\n\n<p>・平日毎晩19時〜22時開催<br>\n・土曜13時〜19時開催<br>\n・トレーナーは現役のエンジニア<br>\n・学生の月会費は50%割引<br>\n・会員の同伴参加は無料<br>\n・ピザナイトを月1で開催（無料）<br>\n・キャリア相談<br>\n・zoomでのオンライン対応</p>\n\n<p>●詳細はこちら<br>\n<a href=\"https://techgym.jp/tokyo/tokyo_honko/\" rel=\"nofollow\">https://techgym.jp/tokyo/tokyo_honko/</a></p>",
+      "public_url": "https://techgym.doorkeeper.jp/events/139716",
+      "participants": 1,
+      "waitlisted": 0,
+      "ticket_limit": 5,
+      "lat": 35.6791053,
+      "long": 139.7403868
+    }
+  },
+  {
+    "event": {
+      "title": "8/20 東京本校【無料リアル開催】ゼロからはじめるPython入門講座（テックジム・オープン講座）",
+      "id": 139714,
+      "starts_at": "2022-08-20T02:00:00.000Z",
+      "ends_at": "2022-08-20T04:00:00.000Z",
+      "venue_name": "VORT永田町6F",
+      "address": "東京都千代田区平河町2-7-2",
+      "published_at": "2022-07-05T11:06:36.862Z",
+      "updated_at": "2022-08-19T08:55:10.417Z",
+      "group": {
+        "id": 9679,
+        "name": "テックジムと愉快な仲間たち",
+        "country_code": "JP",
+        "logo": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK1IzQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d918761bc0d4e5df10776a507831f1c8db8bc659/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/%E3%83%86%E3%83%83%E3%82%AF%E3%82%B7%E3%82%99%E3%83%A0%E3%83%AD%E3%82%B3%E3%82%99.png",
+        "description": "<p>「テックジム方式」とは、基礎知識なしでも、座学なしでプログラミングに専念できるように設計されたプログラミングのカリキュラムメソッドです。</p>\n\n<p>優れたエンジニアの多くは、職業訓練学校や研修スクールで学ぶような学び方をしません。 作りたいものを作っていたら、自然に習得できているのです。そして、優れた指導者（メンターや師匠）との出会いがエンジニアとしてのプロフェッショナル性を高めます。</p>\n\n<p>この自発性とプロフェッショナル性を兼ね備えたのが「テックジム方式」です。 授業を聞いたりテキストを読むことで失う時間を、純粋にプログラミング時間に向けることで、習得効率は飛躍的に向上し、モチベーションも維持できます。 その時点で知らなくていい知識や概念を可能な限り削ぎ落とし、知るべきタイミングが訪れた時にはすでに課題を通じて覚えているようなスキル習得の自動化を図ります。</p>\n\n<p>講座で用いるサンプルソースや課題は、最も効率よく学べるように細部に渡って設計されています。 まるで魔法にかかったようにプログラミンスキルが習得できるのが「テックジム方式」の醍醐味です。</p>\n",
+        "public_url": "https://techgym.doorkeeper.jp/",
+        "members_count": 1091
+      },
+      "banner": "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd3FnQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8a7cee819bda771d5e553ad9c4d95e15407d59c8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFMb0F6QT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--91839951a073aea8822f6907dc8d81559a890706/%E3%83%92%E3%82%9A%E3%83%BC%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%E7%94%A8.png",
+      "description": "<p>プログラミングは初めてだけど、Pythonから始めてみたいという方のために、無料のハンズオン開発講座をご用意いたしました。当講座は東京を中心に全国で12,000名突破の人気講座です。</p>\n\n<h2>【リアル会場での開催となります】</h2>\n\n<p>オンラインではサポートし辛い細かな質問にも気兼ねなくお答えできるのはリアルならでは。<br>\n初学者から、年齢性別に限らずプログラミングに興味を持った方に受講頂いている当講座は既に述べ１万人以上の方にお申し込み頂いております。<br>\n受講後はテックジムの会員様と混ざって頂き自習室をご自由にお使いください。<br>\n入退室は自由となっております。</p>\n\n<p>＊当日体調のすぐれない方、発熱のある方は参加をお控えください。<br>\n毎週開催しておりますので別日でのお申し込みをお願いいたします</p>\n\n<p>持ち物<br>\n・ノートPC<br>\n・Gmailアカウント</p>\n\n<p>下記チャンネルで復習動画を配信しております。</p>\n\n<p>【配信チャンネル】フーテンのグラさん（再生リスト:テックジム） <br>\n<a href=\"https://www.youtube.com/watch?v=L03x23C6dQw&amp;list=PL9u04bPGBuUPVseIvQqOCeOydgczDrmhe\" rel=\"nofollow\">フーテンのグラさん</a></p>\n\n<h2>趣味でプログラミングを勉強したい大人が増えている理由とは？</h2>\n\n<p>当講座に参加している方の6割以上が「将来エンジニアになりたいわけではないけど教養のためにプログラミングを勉強したい」という方たちで、年齢層は中学生から定年を迎えた人まで幅広く、女性の参加率も3割〜4割と非常に高くなってきております。</p>\n\n<p>この背景には、産業のIT化やAI化が進んでおり、現在の仕事に活かしたいと思っている方も多いようです。</p>\n\n<p>また、2020年から2024年にかけて、小学生のプログラミング科目の必須化、同様に中学・高校でも必須化、そして、大学入試にプログラミング科目が追加されることを背景に、彼らを対象にしたプログラミング教室はすでに4000校を超え、1万校になるとされております。</p>\n\n<p>このように、プログラミングに興味を持つ人々が激増しており、近い将来、プログラミング教育市場は、英会話市場と同じぐらいの規模になると予想されています。</p>\n\n<h2>副業・リモートワーカーのプログラミング需要の増加</h2>\n\n<p>働き方改革が浸透するなか、仕事を辞めざるを得なかった主婦層を中心に、クラウドソーシングの需要が増えています。彼女らの多くの仕事はパソコンを使った軽作業や、事務代行などの業務が中心でした。</p>\n\n<p>プログラマーもまたリモートワークに向いている職業ですので、プログラミングスキルを持っている方は、より時間単価の高い仕事を受けることができます。</p>\n\n<p>また、「会社勤め」という働き方を見直したい人は「フリーランスエンジニア」という生き方を選択することもできるでしょう。</p>\n\n<h2>今後、ITエンジニアは東京から地方に流れる!?</h2>\n\n<p>現在、ITエンジニアの就業人口は80万人とされ、数年以内に30万人のITエンジニアが不足すると言われている一方で、ITゼネコンと言われるSIerに従事するような一部の「新しい技術に追いつけないエンジニア」の10万人は不要になるというニュースもあります。</p>\n\n<p>現在、ITエンジニアの多くは首都圏や、大都市周辺を職場としておりますが、5G時代になると、いよいよIoT（モノのインターネット化）の社会実装が、第一次産業などで活発化していきますので、多くのエンジニアが移住する可能性があります。</p>\n\n<p>また産業用ロボットや、産業用スマートメガネなどは、工場エリアや建設エリアなどで盛んになるため、工業地帯にもITエンジニアが流入していくでしょう。</p>\n\n<p>今まではパソコン上のプログラミングだけで完結していたビジネスがITビジネスの主軸産業でしたが、今後はあらゆる産業において、その産業機器を扱う現場の人との交流がITビジネスの肝となってきます。</p>\n\n<p>また昨今、注目されているAI、ブロックチェーン、ロボットなどの新しい技術分野の社会実装がどんどん進んでいきますので、ITエンジニアは全国各地の社会インフラを作り変える担い手となっていきます。</p>\n\n<p>非エンジニアの人たちもまた、彼らと一緒に新しい産業を作るために、プログラミングの教養をつえておくことは、ビジネスチャンスになるでしょう。</p>\n\n<p>地方の活性化は、「どれだけエンジニアをその土地に呼べるか？」にかかっていると言っても過言ではありません。</p>\n\n<h2>Pythonが注目されている理由とは？</h2>\n\n<p>「少ないコード量で簡単にプログラムがかける」「コードが読みやすい」といったメリットのある言語で、広い分野で使われています。なかでもPythonは、ディープラーニングのライブラリーが圧倒的に豊富で、「人工知能（AI）をやるならPython」と言われるほどです。</p>\n\n<h3>参考）Pythonのライブラリー事例</h3>\n\n<p>・tensorflow：ディープラーニングのフレームワーク<br>\n・keras：ディープラーニングのフレームワーク<br>\n・jupyter：Webブラウザ上で操作できるPythonカーネル<br>\n・h5py：h5形式で保存<br>\n・Flask：Webアプリのフレームワーク<br>\n・scikit-lean 機械学習ライブラリ<br>\n・matplotlib：グラフライブラリー<br>\n・OpenCV-python：画像処理ライブラリー</p>\n\n<p>世界的に見ても、PythonはJavaやPHPを抜き、1位の人気を博しているプログラミング言語なのです。</p>\n\n<p>また、Pythonは教育用のプログラミング言語としても有能で、最初に学ぶ言語としては最適との評価も高いプログラミング言語です。とういうのも、誰が書いても同じようなコードになるため、他の人が書いたコードを元に勉強するのが簡単だというわけです。</p>\n\n<p>PythonはGoogleやNASAの内部でも利用されており、現在でもGoogleの求人情報にはPythonエンジニアの求人が存在します。</p>\n\n<p>これからプログラミングを勉強するなら、Pythonしかありえないといっても過言ではありません。</p>\n\n<h2>インストール不要ですぐに始められるのがPython</h2>\n\n<p>iPhoneアプリを開発したいなら、Xcodeをダウンロードしなければなりません。<br>\nPHPでWEBサイトを作りたいなら、サーバーにPHPファイルをあげたり、mySQLでデータベースを構築しなくてはなりません。</p>\n\n<p>このように何か開発したい時に必要最低限の環境構築が大変なのがプログラミング習得の難しさで、今まで多くの人々が挫折してきました。</p>\n\n<p>しかし、Pythonを学びはじめるときに必要なのは、ネットにつながったPCだけでOKなのです。</p>\n\n<h2>今回の講座でご用意いただくものは、PCとメアドだけ</h2>\n\n<p>GitHubというプログラムソース管理・共有ツールで、サンプルソースを共有いたします。<br>\n申し込み後にGitHubにご招待いたしますので、あらかじめGitHubの登録をお済ませください。<br>\n<a href=\"https://github.com/\" rel=\"nofollow\">https://github.com/</a></p>\n\n<p>開発は、グーグル社が提供するColaboratoryにアクセスした画面で行います。<br>\nローカル環境のエディターでプログラムコードを書いたあと、そのソースをコピーして、ここでビルドするというやり方です。（今の時点で何を言っているかわからない方も、それでOKです!!）<br>\n<a href=\"https://colab.research.google.com/notebooks/welcome.ipynb\" rel=\"nofollow\">https://colab.research.google.com/notebooks/welcome.ipynb</a></p>\n\n<p>エディターはメモ帳でもなんでも構いませんが、Visual Studio Codeがオススメです。<br>\n<a href=\"https://code.visualstudio.com/\" rel=\"nofollow\">https://code.visualstudio.com/</a></p>\n\n<h2>入門講座のアジェンダとゴール設定（本講座の狙い）</h2>\n\n<p>非常にシンプルなサンプルコードを少しずつバージョンアップしながら、「じゃんけんゲーム」を作り上げていきます。</p>\n\n<p>バージョンアップごとに課題が用意されていて、各参加者のスピードにあわせて解いていただきます。</p>\n\n<p>もしつまづいても、スタッフが手取り足取りサポートする「ハンズオン形式」の講座となります。</p>\n\n<h2>本講座で得られること</h2>\n\n<p>・Pythonの基礎的な文法の理解<br>\n・ソースコードを読めるようになる<br>\n・自分でゼロからコードを書けるようになる</p>\n\n<h2>講座内容</h2>\n\n<p>0.高速学習術について<br>\n1.グーグルコラボラトリーでサンプルソースを実行する<br>\n2.条件分岐文を書いてみる（インデントを学ぶ）<br>\n3.長いソースをシンプルなソースに書き換える（プログラムの簡略化を学ぶ）<br>\n4.関数化（関数の宣言と実行。戻り値と引数について学ぶ）<br>\n5.学習モチベーションの維持方法<br>\n6.プログラミングが大好きになるには？</p>\n\n<p>第１章　「じゃんけんゲームを作る」 <br>\n・Pythonの書き方 <br>\n・条件分岐（if文） <br>\n・関数 </p>\n\n<p>●テックジムのPythonコースでは、以下「続き」がございます。</p>\n\n<p>第２章　「間違い探しゲームを作る」<br>\n第３章　「野球シミュレーションゲームを作る」<br>\n第４章「カジノゲームを作ろう」<br>\n第５章「発展系の書き方をしよう」<br>\n第６章　「ブラックジャックゲームを作ろう」<br>\n第７章「卒業課題」第１章から第６章まで作ってきたものをレベルアップ（仕様追加、変更）。</p>\n\n<p>●Pythonコースのカリキュラム概要と制作者メッセージ</p>\n\n<p>[<a href=\"https://www.youtube.com/watch?v=TeKXmoI1ZGk\" rel=\"nofollow\">https://www.youtube.com/watch?v=TeKXmoI1ZGk</a>]</p>\n\n<h2>もっとも効率的なスキル習得「TechGYM方式」とは？</h2>\n\n<p>「TechGYM方式」とは、基礎知識なしでも、座学なしでプログラミングに専念できるように設計されたプログラミングのカリキュラムメソッドです。</p>\n\n<p>優れたエンジニアの多くは、職業訓練学校や研修スクールで学ぶような学び方をしません。<br>\n作りたいものを作っていたら、自然に習得できているのです。そして、優れた指導者（メンターや師匠）との出会いがエンジニアとしてのプロフェッショナル性を高めます。</p>\n\n<p>この自発性とプロフェッショナル性を兼ね備えたのが「TechGYM方式」です。</p>\n\n<p>授業を聞いたりテキストを読むことで失う時間を、純粋にプログラミング時間に向けることで、習得効率は飛躍的に向上し、モチベーションも維持できます。</p>\n\n<p>その時点で知らなくていい知識や概念を可能な限り削ぎ落とし、知るべきタイミングが訪れた時にはすでに課題を通じて覚えているようなスキル習得の自動化を図ります。</p>\n\n<p>講座で用いるサンプルソースや課題は、最も効率よく学べるように細部に渡って設計されています。</p>\n\n<p>まるで魔法にかかったようにプログラミンスキルが習得できるのが「TechGYM方式」の醍醐味です。</p>\n\n<p>百聞は一見に如かず。実際に講座に参加して「魔法体験」をしてみてください。</p>\n\n<h2>テックジム東京本校</h2>\n\n<p>・Python基礎コース（初学者対象・200時間で履修可能）<br>\n・AIエンジニア養成コース（現役エンジニアを対象）<br>\n・Ruby on Railsコース（副業向け）<br>\n・GAS(Googole Apps Script)コース（業務改善向け）をご用意しております。<br>\n・スマホアプリ開発コース（iOS・Android）</p>\n\n<p>・平日夜の毎晩19時〜22時開催<br>\n・土曜日の13時〜19時開催<br>\n・トレーナーは現役のエンジニア<br>\n・学生・シニアの月会費は50%割引<br>\n・会員の同伴参加は無料<br>\n・ピザナイトを月1で開催（無料）<br>\n・キャリア相談<br>\n・zoom,slackでのオンライン対応</p>\n\n<p>●詳細はこちら<br>\n<a href=\"https://techgym.jp/tokyo/tokyo_honko/\" rel=\"nofollow\">東京本校</a></p>",
+      "public_url": "https://techgym.doorkeeper.jp/events/139714",
+      "participants": 0,
+      "waitlisted": 0,
+      "ticket_limit": 5,
+      "lat": 35.6791053,
+      "long": 139.7403868
+    }
+  }
+]
