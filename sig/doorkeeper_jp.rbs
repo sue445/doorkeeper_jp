@@ -1,4 +1,6 @@
 module DoorkeeperJp
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  def self.client: (?String? access_token) -> DoorkeeperJp::Client
 end

@@ -1,0 +1,4 @@
+module DoorkeeperJp
+  class Response < Hashie::Mash
+  end
+end
