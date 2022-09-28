@@ -123,4 +123,22 @@ RSpec.describe DoorkeeperJp::Client do
       its(:group) { should eq 433 }
     end
   end
+
+  describe "#group" do
+    subject(:events) { client.group("trbmeetup") }
+
+    before do
+      stub_request(:get, "https://api.doorkeeper.jp/groups/trbmeetup").
+        with(headers: request_headers).
+        to_return(status: 200, headers: response_headers, body: fixture("get_group.json"), )
+    end
+
+    its(:id)            { should eq 24 }
+    its(:name)          { should eq "Tokyo Rubyist Meetup" }
+    its(:country_code)  { should eq "JP" }
+    its(:logo)          { should eq "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMUJqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d2dfc7c9232ea39140864f2b9c8f95294beb690/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/200px-Ruby_logo.png" }
+    its(:description)   { should eq "<p>Tokyo Rubyist Meetup (trbmeetup)は、日本のRubyistと世界のRubyistとをつなげるための場になることを目指して設立されました。定例会には、東京近郊に住んでいる海外出身のRubyistたちと日本人Rubyistたちが参加します。例会の公用語は英語になりますが、英語が苦手な方も、一緒に英語の練習をするくらいのつもりでお気軽にご参加ください。</p>\n" }
+    its(:public_url)    { should eq "https://trbmeetup.doorkeeper.jp/" }
+    its(:members_count) { should eq 2155 }
+  end
 end
