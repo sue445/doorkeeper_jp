@@ -2,6 +2,8 @@
 
 API client for [doorkeeper.jp](https://www.doorkeeper.jp/) 
 
+[![test](https://github.com/sue445/doorkeeper_jp/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/doorkeeper_jp/actions/workflows/test.yml)
+
 ## Installation
 
 Add this line to your application's Gemfile:
