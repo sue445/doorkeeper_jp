@@ -88,11 +88,15 @@ module DoorkeeperJp
 
     # @return [Hash]
     def request_headers
-      {
-        "User-Agent" => "DoorkeeperJp v#{DoorkeeperJp::VERSION} (https://github.com/sue445/doorkeeper_jp)",
-        "Authorization" => "Bearer #{@access_token}",
-        "Content-Type" => "application/json",
-      }
+      headers =
+        {
+          "User-Agent" => "DoorkeeperJp v#{DoorkeeperJp::VERSION} (https://github.com/sue445/doorkeeper_jp)",
+          "Content-Type" => "application/json",
+        }
+
+      headers["Authorization"] = "Bearer #{@access_token}" if @access_token
+
+      headers
     end
 
     # @param page [Integer] The page offset of the results.
