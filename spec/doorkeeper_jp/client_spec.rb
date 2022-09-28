@@ -141,4 +141,70 @@ RSpec.describe DoorkeeperJp::Client do
     its(:public_url)    { should eq "https://trbmeetup.doorkeeper.jp/" }
     its(:members_count) { should eq 2155 }
   end
+
+  describe "#event" do
+    subject(:events) { client.event(id: 28319, is_expand_group: is_expand_group) }
+
+    context "is_expand_group is false" do
+      let(:is_expand_group) { false }
+
+      before do
+        stub_request(:get, "https://api.doorkeeper.jp/events/28319").
+          with(headers: request_headers).
+          to_return(status: 200, headers: response_headers, body: fixture("get_event.json"), )
+      end
+
+      its(:title)        { should eq "900K records per second with Ruby, Java, and JRuby" }
+      its(:id)           { should eq 28319 }
+      its(:starts_at)    { should eq "2015-08-13T10:00:00.000Z" }
+      its(:ends_at)      { should eq "2015-08-13T13:00:00.000Z" }
+      its(:venue_name)   { should eq "VOYAGE GROUP" }
+      its(:address)      { should eq "東京都渋谷区神泉町8-16 渋谷ファーストプレイス8F" }
+      its(:published_at) { should eq "2015-07-13T23:48:29.463Z" }
+      its(:updated_at)   { should eq "2018-05-11T00:07:44.270Z" }
+      its(:description)  { should be_start_with "<h2>アジェンダ</h2>" }
+      its(:public_url)   { should eq "https://trbmeetup.doorkeeper.jp/events/28319" }
+      its(:participants) { should eq 48 }
+      its(:waitlisted)   { should eq 0 }
+      its(:ticket_limit) { should eq 50 }
+      its(:lat)          { should be_within(0.01).of(35.6552616) }
+      its(:long)         { should be_within(0.01).of(139.6937299) }
+
+      its(:group) { should eq 24 }
+    end
+
+    context "is_expand_group is true" do
+      let(:is_expand_group) { true }
+
+      before do
+        stub_request(:get, "https://api.doorkeeper.jp/events/28319?expand[]=group").
+          with(headers: request_headers).
+          to_return(status: 200, headers: response_headers, body: fixture("get_event_expand_group.json"), )
+      end
+
+      its(:title)        { should eq "900K records per second with Ruby, Java, and JRuby" }
+      its(:id)           { should eq 28319 }
+      its(:starts_at)    { should eq "2015-08-13T10:00:00.000Z" }
+      its(:ends_at)      { should eq "2015-08-13T13:00:00.000Z" }
+      its(:venue_name)   { should eq "VOYAGE GROUP" }
+      its(:address)      { should eq "東京都渋谷区神泉町8-16 渋谷ファーストプレイス8F" }
+      its(:published_at) { should eq "2015-07-13T23:48:29.463Z" }
+      its(:updated_at)   { should eq "2018-05-11T00:07:44.270Z" }
+      its(:description)  { should be_start_with "<h2>アジェンダ</h2>" }
+      its(:public_url)   { should eq "https://trbmeetup.doorkeeper.jp/events/28319" }
+      its(:participants) { should eq 48 }
+      its(:waitlisted)   { should eq 0 }
+      its(:ticket_limit) { should eq 50 }
+      its(:lat)          { should be_within(0.01).of(35.6552616) }
+      its(:long)         { should be_within(0.01).of(139.6937299) }
+
+      its([:group, :id])            { should eq 24 }
+      its([:group, :name])          { should eq "Tokyo Rubyist Meetup" }
+      its([:group, :country_code])  { should eq "JP" }
+      its([:group, :logo])          { should eq "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMUJqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d2dfc7c9232ea39140864f2b9c8f95294beb690/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/200px-Ruby_logo.png" }
+      its([:group, :description])   { should be_start_with "<p>Tokyo Rubyist Meetup (trbmeetup)は、日本のRubyistと世界のRubyistとをつなげるための場になることを目指して設立されました。" }
+      its([:group, :public_url])    { should eq "https://trbmeetup.doorkeeper.jp/" }
+      its([:group, :members_count]) { should eq 2155 }
+    end
+  end
 end

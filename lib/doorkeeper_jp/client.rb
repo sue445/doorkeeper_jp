@@ -64,6 +64,22 @@ module DoorkeeperJp
       res.group
     end
 
+    # Show a specific event
+    #
+    # @param id [Integer]
+    # @param is_expand_group [Boolean] Expands the group object.
+    #
+    # @return [DoorkeeperJp::Response]
+    #
+    # @see https://www.doorkeeper.jp/developer/api?locale=en
+    def event(id:, is_expand_group: false)
+      params = {}
+      params["expand[]"] = "group" if is_expand_group
+
+      res = connection.get("events/#{id}", params).body
+      res.event
+    end
+
     private
 
     # @param path [String]
