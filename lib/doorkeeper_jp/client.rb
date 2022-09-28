@@ -52,6 +52,18 @@ module DoorkeeperJp
       )
     end
 
+    # Show a specific group
+    #
+    # @param group [String]
+    #
+    # @return [DoorkeeperJp::Response]
+    #
+    # @see https://www.doorkeeper.jp/developer/api?locale=en
+    def group(group)
+      res = connection.get("groups/#{group}").body
+      res.group
+    end
+
     private
 
     # @param path [String]
