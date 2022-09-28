@@ -9,5 +9,13 @@ require "faraday/mashify"
 
 module DoorkeeperJp
   class Error < StandardError; end
-  # Your code goes here...
+
+  # Create and returns {DoorkeeperJp::Client} instance
+  #
+  # @param access_token [String]
+  #
+  # @return [DoorkeeperJp::Client]
+  def self.client(access_token = nil)
+    DoorkeeperJp::Client.new(access_token)
+  end
 end
