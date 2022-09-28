@@ -89,4 +89,38 @@ RSpec.describe DoorkeeperJp::Client do
       end
     end
   end
+
+  describe "#group_events" do
+    subject(:events) { client.group_events(group: "esminc") }
+
+    before do
+      stub_request(:get, "https://api.doorkeeper.jp/groups/esminc/events").
+        with(headers: request_headers).
+        to_return(status: 200, headers: response_headers, body: fixture("get_group_events.json"), )
+    end
+
+    its(:count) { should eq 2 }
+
+    describe "[0]" do
+      subject { events[0] }
+
+      its(:title)        { should eq "アジャイルカフェ@オンライン 第21回（※Zoom開催 耳だけOK）#AgileCafe" }
+      its(:id)           { should eq 144272 }
+      its(:starts_at)    { should eq "2022-10-18T08:30:00.000Z" }
+      its(:ends_at)      { should eq "2022-10-18T09:00:00.000Z" }
+      its(:venue_name)   { should eq nil }
+      its(:address)      { should eq nil }
+      its(:lat)          { should eq nil }
+      its(:long)         { should eq nil }
+      its(:ticket_limit) { should eq 50 }
+      its(:published_at) { should eq "2022-09-27T13:10:40.485Z" }
+      its(:updated_at)   { should eq "2022-09-27T13:29:40.142Z" }
+      its(:description)  { should be_start_with "<p>視聴者の方から寄せられたアジャイルの悩みにアジャイルコーチが「あーでもない、こーでもない」「これならいけそうかも」と解決策を楽しく考えていきます。</p>" }
+      its(:public_url)   { should eq "https://esminc.doorkeeper.jp/events/144272" }
+      its(:participants) { should eq 1 }
+      its(:waitlisted)   { should eq 0 }
+
+      its(:group) { should eq 433 }
+    end
+  end
 end
