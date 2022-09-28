@@ -44,7 +44,7 @@ module DoorkeeperJp
     # @return [Array<DoorkeeperJp::Response>]
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
-    def group_events(group:, page: nil, locale: nil, sort: nil, since_date: nil, until_date: nil, keyword: nil, prefecture: nil, is_expand_group: false)
+    def group_events(group, page: nil, locale: nil, sort: nil, since_date: nil, until_date: nil, keyword: nil, prefecture: nil, is_expand_group: false)
       get_events(
         path: "groups/#{group}/events",
         page: page, locale: locale, sort: sort, since_date: since_date, until_date: until_date,
@@ -72,7 +72,7 @@ module DoorkeeperJp
     # @return [DoorkeeperJp::Response]
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
-    def event(id:, is_expand_group: false)
+    def event(id, is_expand_group: false)
       params = {}
       params["expand[]"] = "group" if is_expand_group
 
