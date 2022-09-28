@@ -1,8 +1,6 @@
 # DoorkeeperJp
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/doorkeeper_jp`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+API client for [doorkeeper.jp](https://www.doorkeeper.jp/) 
 
 ## Installation
 
@@ -21,8 +19,44 @@ Or install it yourself as:
     $ gem install doorkeeper_jp
 
 ## Usage
+```ruby
+require "doorkeeper_jp"
 
-TODO: Write usage instructions here
+client = DoorkeeperJp.client(ENV["DOORKEEPER_ACCESS_TOKEN"])
+
+# List all featured events
+events = client.events
+
+events.count
+#=> 25
+
+events[0].title
+#=> "Kaigi on Rails 2022"
+
+events[0].public_url
+#=> "https://kaigionrails.doorkeeper.jp/events/143638"
+
+# List a community's events
+client.group_events("trbmeetup")
+
+# Show a specific event
+event = client.event(28319)
+
+event.title
+#=> "900K records per second with Ruby, Java, and JRuby"
+
+event.public_url
+#=> "https://trbmeetup.doorkeeper.jp/events/28319"
+
+# Show a specific group
+group = client.group("trbmeetup")
+
+group.name
+#=> "Tokyo Rubyist Meetup"
+
+group.public_url
+#=> "https://trbmeetup.doorkeeper.jp/"
+```
 
 ## Development
 
@@ -32,7 +66,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/doorkeeper_jp.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sue445/doorkeeper_jp.
 
 ## License
 
