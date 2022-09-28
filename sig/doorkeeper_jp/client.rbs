@@ -1,0 +1,25 @@
+module DoorkeeperJp
+  class Client
+    def initialize: (?String? access_token) -> void
+
+    def events: (?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+
+    def group_events: (String group, ?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+
+    def group: (String group) -> DoorkeeperJp::Response
+
+    def event: (Integer id, ?is_expand_group: bool is_expand_group) -> DoorkeeperJp::Response
+
+    private
+
+    def get_events: (String path, ?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+
+    def connection: () -> Faraday::Connection
+
+    def request_headers: () -> Hash[String, String]
+
+    def event_params: (?page: Integer page, ?locale: String locale, ?sort: String sort, ?since_date: Date since_date, ?until_date: Date until_date, ?keyword: String keyword, ?prefecture: String prefecture, ?is_expand_group: bool is_expand_group) -> Hash[Symbol, untyped]
+
+    def to_ymd: (Date? date) -> String
+  end
+end
