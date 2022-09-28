@@ -91,7 +91,7 @@ RSpec.describe DoorkeeperJp::Client do
   end
 
   describe "#group_events" do
-    subject(:events) { client.group_events(group: "esminc") }
+    subject(:events) { client.group_events("esminc") }
 
     before do
       stub_request(:get, "https://api.doorkeeper.jp/groups/esminc/events").
@@ -143,7 +143,7 @@ RSpec.describe DoorkeeperJp::Client do
   end
 
   describe "#event" do
-    subject(:events) { client.event(id: 28319, is_expand_group: is_expand_group) }
+    subject(:events) { client.event(28319, is_expand_group: is_expand_group) }
 
     context "is_expand_group is false" do
       let(:is_expand_group) { false }
