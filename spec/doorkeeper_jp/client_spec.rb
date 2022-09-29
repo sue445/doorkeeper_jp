@@ -125,29 +125,52 @@ RSpec.describe DoorkeeperJp::Client do
   end
 
   describe "#group" do
-    subject(:events) { client.group("trbmeetup") }
+    subject(:events) { client.group("trbmeetup", locale: locale) }
 
-    before do
-      stub_request(:get, "https://api.doorkeeper.jp/groups/trbmeetup").
-        with(headers: request_headers).
-        to_return(status: 200, headers: response_headers, body: fixture("get_group.json"), )
+    let(:locale) { nil }
+
+    context "locale is nil" do
+      before do
+        stub_request(:get, "https://api.doorkeeper.jp/groups/trbmeetup").
+          with(headers: request_headers).
+          to_return(status: 200, headers: response_headers, body: fixture("get_group.json"), )
+      end
+
+      its(:id)            { should eq 24 }
+      its(:name)          { should eq "Tokyo Rubyist Meetup" }
+      its(:country_code)  { should eq "JP" }
+      its(:logo)          { should eq "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMUJqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d2dfc7c9232ea39140864f2b9c8f95294beb690/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/200px-Ruby_logo.png" }
+      its(:description)   { should eq "<p>Tokyo Rubyist Meetup (trbmeetup)は、日本のRubyistと世界のRubyistとをつなげるための場になることを目指して設立されました。定例会には、東京近郊に住んでいる海外出身のRubyistたちと日本人Rubyistたちが参加します。例会の公用語は英語になりますが、英語が苦手な方も、一緒に英語の練習をするくらいのつもりでお気軽にご参加ください。</p>\n" }
+      its(:public_url)    { should eq "https://trbmeetup.doorkeeper.jp/" }
+      its(:members_count) { should eq 2155 }
     end
 
-    its(:id)            { should eq 24 }
-    its(:name)          { should eq "Tokyo Rubyist Meetup" }
-    its(:country_code)  { should eq "JP" }
-    its(:logo)          { should eq "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMUJqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d2dfc7c9232ea39140864f2b9c8f95294beb690/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/200px-Ruby_logo.png" }
-    its(:description)   { should eq "<p>Tokyo Rubyist Meetup (trbmeetup)は、日本のRubyistと世界のRubyistとをつなげるための場になることを目指して設立されました。定例会には、東京近郊に住んでいる海外出身のRubyistたちと日本人Rubyistたちが参加します。例会の公用語は英語になりますが、英語が苦手な方も、一緒に英語の練習をするくらいのつもりでお気軽にご参加ください。</p>\n" }
-    its(:public_url)    { should eq "https://trbmeetup.doorkeeper.jp/" }
-    its(:members_count) { should eq 2155 }
+    context "locale is en" do
+      let(:locale) { "en" }
+
+      before do
+        stub_request(:get, "https://api.doorkeeper.jp/groups/trbmeetup?locale=en").
+          with(headers: request_headers).
+          to_return(status: 200, headers: response_headers, body: fixture("get_group_en.json"), )
+      end
+
+      its(:id)            { should eq 24 }
+      its(:name)          { should eq "Tokyo Rubyist Meetup" }
+      its(:country_code)  { should eq "JP" }
+      its(:logo)          { should eq "https://doorkeeper.jp/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMUJqQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d2dfc7c9232ea39140864f2b9c8f95294beb690/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/200px-Ruby_logo.png" }
+      its(:description)   { should eq "<p>Tokyo Rubyist Meetup (trbmeetup) is an event that seeks to help bridge the Japan and international ruby and ruby on rails community. It will hold regular meetings where Japanese Rubyists can communicate with international Rubyists living in Tokyo. Meetings will be held in English, but anyone is encouraged to participate regardless of their ability.</p>\n" }
+      its(:public_url)    { should eq "https://trbmeetup.doorkeeper.jp/" }
+      its(:members_count) { should eq 2155 }
+    end
   end
 
   describe "#event" do
-    subject(:events) { client.event(28319, is_expand_group: is_expand_group) }
+    subject(:events) { client.event(28319, is_expand_group: is_expand_group, locale: locale) }
+
+    let(:is_expand_group) { false }
+    let(:locale) { nil }
 
     context "is_expand_group is false" do
-      let(:is_expand_group) { false }
-
       before do
         stub_request(:get, "https://api.doorkeeper.jp/events/28319").
           with(headers: request_headers).
@@ -205,6 +228,34 @@ RSpec.describe DoorkeeperJp::Client do
       its([:group, :description])   { should be_start_with "<p>Tokyo Rubyist Meetup (trbmeetup)は、日本のRubyistと世界のRubyistとをつなげるための場になることを目指して設立されました。" }
       its([:group, :public_url])    { should eq "https://trbmeetup.doorkeeper.jp/" }
       its([:group, :members_count]) { should eq 2155 }
+    end
+
+    context "locale is en" do
+      let(:locale) { "en" }
+
+      before do
+        stub_request(:get, "https://api.doorkeeper.jp/events/28319?locale=en").
+          with(headers: request_headers).
+          to_return(status: 200, headers: response_headers, body: fixture("get_event_en.json"), )
+      end
+
+      its(:title)        { should eq "900K records per second with Ruby, Java, and JRuby" }
+      its(:id)           { should eq 28319 }
+      its(:starts_at)    { should eq "2015-08-13T10:00:00.000Z" }
+      its(:ends_at)      { should eq "2015-08-13T13:00:00.000Z" }
+      its(:venue_name)   { should eq "VOYAGE GROUP" }
+      its(:address)      { should eq "東京都渋谷区神泉町8-16 渋谷ファーストプレイス8F" }
+      its(:published_at) { should eq "2015-07-13T23:48:29.463Z" }
+      its(:updated_at)   { should eq "2018-05-11T00:07:44.270Z" }
+      its(:description)  { should be_start_with "<h2>Agenda</h2>" }
+      its(:public_url)   { should eq "https://trbmeetup.doorkeeper.jp/events/28319" }
+      its(:participants) { should eq 48 }
+      its(:waitlisted)   { should eq 0 }
+      its(:ticket_limit) { should eq 50 }
+      its(:lat)          { should be_within(0.01).of(35.6552616) }
+      its(:long)         { should be_within(0.01).of(139.6937299) }
+
+      its(:group) { should eq 24 }
     end
   end
 end
