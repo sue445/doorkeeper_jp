@@ -6,9 +6,9 @@ module DoorkeeperJp
 
     def group_events: (String group, ?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
 
-    def group: (String group) -> DoorkeeperJp::Response
+    def group: (String group, ?locale: String? locale) -> DoorkeeperJp::Response
 
-    def event: (Integer id, ?is_expand_group: bool is_expand_group) -> DoorkeeperJp::Response
+    def event: (Integer id, ?is_expand_group: bool is_expand_group, ?locale: String? locale) -> DoorkeeperJp::Response
 
     private
 

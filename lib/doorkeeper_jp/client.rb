@@ -55,12 +55,17 @@ module DoorkeeperJp
     # Show a specific group
     #
     # @param group [String]
+    # @param locale [String] The localized text for an event. One of `en`, `ja`. Default: `ja`.
     #
     # @return [DoorkeeperJp::Response]
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
-    def group(group)
-      res = connection.get("groups/#{group}").body
+    def group(group, locale: nil)
+      params = {
+        locale: locale,
+      }.compact
+
+      res = connection.get("groups/#{group}", params).body
       res.group
     end
 
@@ -68,12 +73,16 @@ module DoorkeeperJp
     #
     # @param id [Integer]
     # @param is_expand_group [Boolean] Expands the group object.
+    # @param locale [String] The localized text for an event. One of `en`, `ja`. Default: `ja`.
     #
     # @return [DoorkeeperJp::Response]
     #
     # @see https://www.doorkeeper.jp/developer/api?locale=en
-    def event(id, is_expand_group: false)
-      params = {}
+    def event(id, is_expand_group: false, locale: nil)
+      params = {
+        locale: locale,
+      }.compact
+
       params["expand[]"] = "group" if is_expand_group
 
       res = connection.get("events/#{id}", params).body
