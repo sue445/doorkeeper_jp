@@ -63,7 +63,7 @@ group.public_url
 
 See below for more details
 
-* https://rubydoc.info/gems/doorkeeper_jp
+* https://rubydoc.info/gems/doorkeeper_jp/DoorkeeperJp/Client
 * https://www.doorkeeper.jp/developer/api?locale=en
 
 ## Development
