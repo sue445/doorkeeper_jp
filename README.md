@@ -2,6 +2,7 @@
 
 API client for [doorkeeper.jp](https://www.doorkeeper.jp/) 
 
+[![Gem Version](https://badge.fury.io/rb/doorkeeper_jp.svg)](https://badge.fury.io/rb/doorkeeper_jp)
 [![test](https://github.com/sue445/doorkeeper_jp/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/doorkeeper_jp/actions/workflows/test.yml)
 
 ## Installation
@@ -59,6 +60,11 @@ group.name
 group.public_url
 #=> "https://trbmeetup.doorkeeper.jp/"
 ```
+
+See below for more details
+
+* https://rubydoc.info/gems/doorkeeper_jp
+* https://www.doorkeeper.jp/developer/api?locale=en
 
 ## Development
 
