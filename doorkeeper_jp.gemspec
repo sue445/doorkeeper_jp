@@ -36,6 +36,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "hashie"
 
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rbs"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "rspec-its"
   spec.add_development_dependency "webmock"
