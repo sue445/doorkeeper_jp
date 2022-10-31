@@ -11,6 +11,7 @@ task :rbs_validate do
     rbs
     --repo vendor/rbs/gem_rbs_collection/gems/
     -r date
+    -r forwardable
     -r uri
     -r faraday:2.5
     -r hashie:5.0
