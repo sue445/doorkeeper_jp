@@ -2,23 +2,23 @@ module DoorkeeperJp
   class Client
     def initialize: (?String? access_token) -> void
 
-    def events: (?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+    def events: (?page: Integer?, ?locale: String?, ?sort: String?, ?since_date: Date?, ?until_date: Date?, ?keyword: String?, ?prefecture: String?, ?is_expand_group: bool) -> Array[DoorkeeperJp::Response]
 
-    def group_events: (String group, ?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+    def group_events: (String group, ?page: Integer?, ?locale: String?, ?sort: String?, ?since_date: Date?, ?until_date: Date?, ?keyword: String?, ?prefecture: String?, ?is_expand_group: bool) -> Array[DoorkeeperJp::Response]
 
-    def group: (String group, ?locale: String? locale) -> DoorkeeperJp::Response
+    def group: (String group, ?locale: String?) -> DoorkeeperJp::Response
 
-    def event: (Integer id, ?is_expand_group: bool is_expand_group, ?locale: String? locale) -> DoorkeeperJp::Response
+    def event: (Integer id, ?is_expand_group: bool, ?locale: String?) -> DoorkeeperJp::Response
 
     private
 
-    def get_events: (String path, ?page: Integer? page, ?locale: String? locale, ?sort: String? sort, ?since_date: Date? since_date, ?until_date: Date? until_date, ?keyword: String? keyword, ?prefecture: String? prefecture, ?is_expand_group: bool? is_expand_group) -> Array[DoorkeeperJp::Response]
+    def get_events: (path: String, page: Integer?, locale: String?, sort: String?, since_date: Date?, until_date: Date?, keyword: String?, prefecture: String?, is_expand_group: bool) -> Array[DoorkeeperJp::Response]
 
     def connection: () -> Faraday::Connection
 
     def request_headers: () -> Hash[String, String]
 
-    def event_params: (?page: Integer page, ?locale: String locale, ?sort: String sort, ?since_date: Date since_date, ?until_date: Date until_date, ?keyword: String keyword, ?prefecture: String prefecture, ?is_expand_group: bool is_expand_group) -> Hash[Symbol|String, untyped]
+    def event_params: (page: Integer?, locale: String?, sort: String?, since_date: Date?, until_date: Date?, keyword: String?, prefecture: String?, is_expand_group: bool) -> Hash[Symbol|String, untyped]
 
     def to_ymd: (Date? date) -> String?
   end
