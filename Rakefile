@@ -10,4 +10,9 @@ task :rbs_validate do
   sh "rbs validate --silent"
 end
 
-task default: %i[spec rbs_validate]
+desc "check steep"
+task :steep_check do
+  sh "steep check"
+end
+
+task default: %i[spec rbs_validate steep_check]
