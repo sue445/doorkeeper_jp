@@ -18,7 +18,7 @@ module DoorkeeperJp
 
     def request_headers: () -> Hash[String, String]
 
-    def event_params: (?page: Integer page, ?locale: String locale, ?sort: String sort, ?since_date: Date since_date, ?until_date: Date until_date, ?keyword: String keyword, ?prefecture: String prefecture, ?is_expand_group: bool is_expand_group) -> Hash[Symbol, untyped]
+    def event_params: (?page: Integer page, ?locale: String locale, ?sort: String sort, ?since_date: Date since_date, ?until_date: Date until_date, ?keyword: String keyword, ?prefecture: String prefecture, ?is_expand_group: bool is_expand_group) -> Hash[Symbol|String, untyped]
 
     def to_ymd: (Date? date) -> String
   end
