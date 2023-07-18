@@ -29,8 +29,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - uses: ruby/setup-ruby@v1
         with:
