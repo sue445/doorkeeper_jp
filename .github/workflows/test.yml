@@ -73,7 +73,7 @@ jobs:
 
       - run: bundle exec rbs collection install
       - run: bundle exec rbs validate --silent
-      # - run: bundle exec steep check # TODO: Do after
+      - run: bundle exec steep check
 
   notify:
     needs:
