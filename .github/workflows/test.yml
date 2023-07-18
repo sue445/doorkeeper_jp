@@ -29,8 +29,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          submodules: true
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -44,7 +42,9 @@ jobs:
           bundle update --jobs $(nproc) --retry 3
 
       - run: bundle exec rspec
+      - run: bundle exec rbs collection install
       - run: bundle exec rake rbs_validate
+      # - run: bundle exec rake steep_check # TODO: Do after
 
       - name: Slack Notification (not success)
         uses: lazy-actions/slatify@master
