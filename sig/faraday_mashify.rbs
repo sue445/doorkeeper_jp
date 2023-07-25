@@ -1,0 +1,6 @@
+module Faraday
+  class Response
+    def body: () -> (String | DoorkeeperJp::Response | Array[DoorkeeperJp::Response])
+            | ...
+  end
+end
