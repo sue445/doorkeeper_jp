@@ -1,0 +1,13 @@
+# TODO: Send patch to gem_rbs_collection
+
+module Hashie
+  module Extensions
+    module KeyConflictWarning
+      def disable_warnings: (*Symbol) -> void
+    end
+  end
+
+  class Mash
+    extend Hashie::Extensions::KeyConflictWarning
+  end
+end
