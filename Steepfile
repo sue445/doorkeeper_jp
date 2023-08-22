@@ -11,7 +11,6 @@ target :lib do
   # library "pathname"              # Standard libraries
   # library "strong_json"           # Gems
 
-  library "date"
   collection_config "rbs_collection.yaml"
 
   # configure_code_diagnostics(D::Ruby.default)      # `default` diagnostics setting (applies by default)

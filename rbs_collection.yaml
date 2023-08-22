@@ -26,3 +26,4 @@ gems:
     ignore: true
   - name: hashie
   - name: faraday
+  - name: date
