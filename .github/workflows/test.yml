@@ -37,6 +37,7 @@ jobs:
 
       - name: bundle update
         run: |
+          exit 1
           set -xe
           bundle config path vendor/bundle
           bundle update --jobs $(nproc) --retry 3
