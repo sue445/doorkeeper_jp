@@ -1,0 +1,18 @@
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231110-1915-fo9o7d sitelibdir\=./.gem.20231110-1915-fo9o7d clean
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231110-1915-fo9o7d sitelibdir\=./.gem.20231110-1915-fo9o7d
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231110-1915-fo9o7d sitelibdir\=./.gem.20231110-1915-fo9o7d install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231110-1915-fo9o7d/racc
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20231110-1915-fo9o7d sitelibdir\=./.gem.20231110-1915-fo9o7d clean

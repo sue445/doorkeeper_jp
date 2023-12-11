@@ -1,0 +1,27 @@
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/rbs-3.3.2/ext/rbs_extension
+/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/rbs-3.3.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20231124-1854-n3elod sitelibdir\=./.gem.20231124-1854-n3elod clean
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/rbs-3.3.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20231124-1854-n3elod sitelibdir\=./.gem.20231124-1854-n3elod
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/rbs-3.3.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20231124-1854-n3elod sitelibdir\=./.gem.20231124-1854-n3elod install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20231124-1854-n3elod
+
+current directory: /home/runner/work/doorkeeper_jp/doorkeeper_jp/vendor/bundle/ruby/3.2.0/gems/rbs-3.3.2/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20231124-1854-n3elod sitelibdir\=./.gem.20231124-1854-n3elod clean
