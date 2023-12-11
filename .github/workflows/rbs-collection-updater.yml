@@ -30,8 +30,7 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           committer: GitHub <noreply@github.com>
           title: "Update rbs_collection.lock.yaml"
-          body: |
-            bundle exe rbs collection update
+          commit-message: "Run `bundle exe rbs collection update`"
 
       - name: Slack Notification
         uses: act10ns/slack@v2
