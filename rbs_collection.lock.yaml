@@ -6,10 +6,10 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 13ae8cd19056d62358a9d4836106b8b31219fc1e
+    revision: 846c09971455f0e144cef2f5a6c9fe6d8905d3e1
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
-- name: base64
+- name: bigdecimal
   version: '0'
   source:
     type: stdlib
@@ -18,7 +18,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 13ae8cd19056d62358a9d4836106b8b31219fc1e
+    revision: 846c09971455f0e144cef2f5a6c9fe6d8905d3e1
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -34,17 +34,29 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 13ae8cd19056d62358a9d4836106b8b31219fc1e
+    revision: 846c09971455f0e144cef2f5a6c9fe6d8905d3e1
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: net-http
+  version: '0'
+  source:
+    type: stdlib
+- name: net-protocol
+  version: '0'
+  source:
+    type: stdlib
 - name: rake
   version: '13.0'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 13ae8cd19056d62358a9d4836106b8b31219fc1e
+    revision: 846c09971455f0e144cef2f5a6c9fe6d8905d3e1
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: timeout
+  version: '0'
+  source:
+    type: stdlib
 - name: uri
   version: '0'
   source:
