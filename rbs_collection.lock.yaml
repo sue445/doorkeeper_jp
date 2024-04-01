@@ -6,19 +6,27 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 01361bb0fd6e2f3e2da2b11a733ffc938b9047c4
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: bigdecimal
   version: '0'
   source:
     type: stdlib
+- name: diff-lcs
+  version: '1.5'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: faraday
   version: '2.5'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 01361bb0fd6e2f3e2da2b11a733ffc938b9047c4
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -34,7 +42,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 01361bb0fd6e2f3e2da2b11a733ffc938b9047c4
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: hashie
@@ -42,7 +50,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 01361bb0fd6e2f3e2da2b11a733ffc938b9047c4
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: net-http
@@ -58,7 +66,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 01361bb0fd6e2f3e2da2b11a733ffc938b9047c4
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: timeout
@@ -69,4 +77,12 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: webmock
+  version: '3.19'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 823e015090cd291d53c4f9d9d7e76b931a6cc75d
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 gemfile_lock_path: Gemfile.lock
