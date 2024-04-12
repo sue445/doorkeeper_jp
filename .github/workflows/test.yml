@@ -51,7 +51,7 @@ jobs:
         with:
           status: ${{ job.status }}
           webhook-url: ${{ secrets.SLACK_WEBHOOK }}
-          message: "*<{{workflowRunUrl}}|_{{jobName}}_ (${{matrix.ruby}}) is _{{jobStatus}}_>*"
+          matrix: ${{ toJson(matrix) }}
 
   rbs:
     runs-on: ubuntu-latest
