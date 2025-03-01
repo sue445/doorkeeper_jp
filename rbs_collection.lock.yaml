@@ -6,19 +6,23 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: bigdecimal
-  version: '0'
+  version: '3.1'
   source:
-    type: stdlib
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: diff-lcs
   version: '1.5'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: faraday
@@ -26,7 +30,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -42,7 +46,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: hashie
@@ -50,7 +54,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: json
@@ -78,7 +82,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: timeout
@@ -94,7 +98,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ccc14ab579825d8d1fcb4641cc74bfaaf31025a0
+    revision: 95d9b83e2727af43d6dea2ffb9e9d2d350425fe9
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 gemfile_lock_path: Gemfile.lock
