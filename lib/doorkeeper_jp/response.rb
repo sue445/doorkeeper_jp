@@ -19,6 +19,6 @@ module DoorkeeperJp
   # @see https://www.rubydoc.info/gems/hashie/Hashie/Hash
   # @see https://www.rubydoc.info/gems/hashie/Hashie/Mash
   class Response < Hashie::Mash
-    disable_warnings
+    disable_warnings # steep:ignore
   end
 end
