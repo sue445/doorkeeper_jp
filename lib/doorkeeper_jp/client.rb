@@ -66,7 +66,7 @@ module DoorkeeperJp
       }.compact
 
       res = connection.get("groups/#{group}", params).body
-      res.group
+      res["group"]
     end
 
     # Show a specific event
@@ -81,12 +81,12 @@ module DoorkeeperJp
     def event(id, is_expand_group: false, locale: nil)
       params = {
         locale: locale,
-      }.compact
+      }.compact #: Hash[Symbol|String, untyped]
 
       params["expand[]"] = "group" if is_expand_group
 
       res = connection.get("events/#{id}", params).body
-      res.event
+      res["event"]
     end
 
     private
@@ -155,7 +155,7 @@ module DoorkeeperJp
         until:      to_ymd(until_date),
         q:          keyword,
         prefecture: prefecture
-      }.compact
+      }.compact #: Hash[Symbol|String, untyped]
 
       params["expand[]"] = "group" if is_expand_group
 
