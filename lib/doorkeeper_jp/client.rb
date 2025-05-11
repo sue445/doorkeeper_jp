@@ -109,7 +109,7 @@ module DoorkeeperJp
       )
 
       res = connection.get(path, params).body
-      res.map(&:event)
+      res.map(&:event) # steep:ignore
     end
 
     # @return [Faraday::Connection]
