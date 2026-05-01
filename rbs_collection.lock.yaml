@@ -6,11 +6,11 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: bigdecimal
-  version: 4.1.0
+  version: 4.1.2
   source:
     type: rubygems
 - name: date
@@ -22,7 +22,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: faraday
@@ -30,7 +30,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -46,7 +46,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: hashie
@@ -54,7 +54,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: json
@@ -66,7 +66,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: monitor
@@ -86,7 +86,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rdoc
@@ -106,7 +106,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 gemfile_lock_path: Gemfile.lock
