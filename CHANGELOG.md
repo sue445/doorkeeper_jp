@@ -1,5 +1,11 @@
 ## [Unreleased]
-[full changelog](http://github.com/sue445/doorkeeper_jp/compare/v0.1.3...main)
+[full changelog](http://github.com/sue445/doorkeeper_jp/compare/v0.1.4...main)
+
+## [0.1.4](https://github.com/sue445/doorkeeper_jp/releases/tag/v0.1.4) - 2026-08-23
+[full changelog](http://github.com/sue445/doorkeeper_jp/compare/v0.1.3...v0.1.4)
+
+* Migrate release_gem workflow to sue445/workflows (Also testing the gem release)
+  * https://github.com/sue445/doorkeeper_jp/pull/136
 
 ## [0.1.3](https://github.com/sue445/doorkeeper_jp/releases/tag/v0.1.3) - 2025-05-11
 [full changelog](http://github.com/sue445/doorkeeper_jp/compare/v0.1.2...v0.1.3)
